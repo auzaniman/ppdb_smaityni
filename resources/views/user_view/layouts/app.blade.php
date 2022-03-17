@@ -27,11 +27,11 @@
   {{-- End Header --}}
 
   {{-- MAIN --}}
-  @yield('content')
+  {{-- @yield('content') --}}
   {{-- END MAIN --}}
 
   {{-- Footer --}}
-  @include('user_view.includes.footer')
+  {{-- @include('user_view.includes.footer') --}}
   {{-- End Footer --}}
 
   @stack('before-script')
