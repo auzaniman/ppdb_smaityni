@@ -20,7 +20,7 @@
               <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
               <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
               <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+              <a href="javascript:;"><i class="fab fa-youtube text-lg text-white"></i></a>
             </div>
           </div>
         </div>
