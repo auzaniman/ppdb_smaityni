@@ -15,7 +15,7 @@ class PPDBController extends Controller
      */
     public function index()
     {
-        //
+        return view('user_view.pages.home');
     }
 
     /**
@@ -27,7 +27,7 @@ class PPDBController extends Controller
     {
       $ppdb = PPDB::all();
 
-      return view('user_view.pages.ppdb.form.form_tkit1', [
+      return view('user_view.pages.form', [
         'ppdb' => $ppdb,
         ]);
     }
@@ -41,6 +41,7 @@ class PPDBController extends Controller
     public function store(StorePPDBRequest $request)
     {
       $ppdb = $request->all();
+      $ppdb['image'] = $request->file('image')->store('', 'public');
       PPDB::create($ppdb);
 
       return redirect()->route('success');

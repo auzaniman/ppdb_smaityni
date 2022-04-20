@@ -1,8 +1,9 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PPDBController;
+use App\Http\Controllers\TableController;
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -17,26 +18,24 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-// Yayasan
-Route::get('/', function () {
-    return view('user_view.pages.ppdb.home');
-  })->name('home');
+// Halaman Depan
+Route::get('/', [PPDBController::class, 'index'])->name('home');
 
 // PPDB Form
-Route::resource('ppdb', PPDBController::class);
+Route::get('ppdb_form', [PPDBController::class, 'create'])->name('formulir');
+
+// PPDB Form Submit
+Route::post('post_form', [PPDBController::class, 'store'])->name('post_form');
 
 // Admin
-// Route::prefix('admin')
-// ->namespace('Admin')
-// ->middleware(['auth', 'admin'])
-// ->group(function() {
+Route::prefix('admin')
+->namespace('Admin')
+->middleware(['auth', 'admin'])
+->group(function() {
 
-//   // Dashboard
-//   Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+  Route::get('/', [AdminController::class, 'index'])->name('dashboard');
 
-//   // Table
+  Route::get('/table', [TableController::class, 'index'])->name('table');
+});
 
-//   Route::get('/smait', [AdminController::class, 'smait'])->name('smait');
-// });
-
-// Auth::routes();
+Auth::routes();

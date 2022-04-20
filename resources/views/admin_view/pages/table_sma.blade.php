@@ -1,7 +1,7 @@
 @extends('admin_view.layouts.app')
 
 @section('title')
-Table Data SMPIT
+Table Data SMAIT
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@ Table Data SMPIT
 
   <!-- Page Heading -->
   <div class="row justify-content-between mx-0 mb-4">
-    <h1 class="h3 text-gray-800">Data Peserta PPDB SMPIT</h1>
+    <h1 class="h3 text-gray-800">Data Peserta PPDB SMAIT</h1>
     <a id="downloadLink" class="btn btn-success text-decoration-none" onclick="exportF(this)">Export to excel</a>
   </div>
 
@@ -29,7 +29,7 @@ Table Data SMPIT
   <div class="card shadow mb-4">
     <div class="card-header py-3">
       <h6 class="m-0 font-weight-bold text-primary">
-        Pendaftaran SMPIT Nurul 'Ilmi
+        Pendaftaran SMAIT Nurul 'Ilmi
       </h6>
     </div>
     <div class="card-body">
@@ -39,9 +39,9 @@ Table Data SMPIT
           id="dataTable"
           width="100%"
           border="1"
+          align="center"
           cellspacing="0"
           cellpadding="5"
-          align="center"
         >
           <thead class="text-center">
             <tr>
@@ -49,13 +49,12 @@ Table Data SMPIT
               <th rowspan="2">TTL</th>
               <th colspan="3">No Induk</th>
               <th rowspan="2">Asal Sekolah</th>
-              <th rowspan="2">Alamat Tinggal</th>
+              <th rowspan="2">Alamat</th>
               <th colspan="3">Identitas Ayah</th>
-              <th colspan="3">Identitsan Ibu</th>
-              <th colspan="2">Nomor HP</th>
-              <th rowspan="2">Program</th>
-              <th rowspan="2">Pas Poto</th>
-              <th rowspan="2">Bukti Pembayaran</th>
+              <th colspan="3">Identitas Ibu</th>
+              <th colspan="2">No HP</th>
+              <th colspan="3">Program</th>
+              <th rowspan="2">File</th>
               <th rowspan="2">Status</th>
             </tr>
             <tr>
@@ -70,33 +69,35 @@ Table Data SMPIT
               <th>Pekerjaan</th>
               <th>Siswa</th>
               <th>Ortu</th>
+              <th>Jurusan</th>
+              <th>Tinggal</th>
+              <th>Program</th>
             </tr>
           </thead>
           <tbody>
 
-            @forelse ($smpit as $smp)
+            @forelse ($ppdb as $pp)
             <tr>
-              <td>{{ $smp->nama }}</td>
-              <td>{{ $smp->ttl }}</td>
-              <td>{{ $smp->nik }}</td>
-              <td>{{ $smp->nisn }}</td>
-              <td>{{ $smp->kk }}</td>
-              <td>{{ $smp->asal_sekolah }}</td>
-              <td>{{ $smp->alamat }}</td>
-              <td>{{ $smp->nama_ayah }}</td>
-              <td>{{ $smp->nik_ayah }}</td>
-              <td>{{ $smp->pekerjaan_ayah }}</td>
-              <td>{{ $smp->nama_ibu }}</td>
-              <td>{{ $smp->nik_ibu }}</td>
-              <td>{{ $smp->pekerjaan_ibu }}</td>
-              <td>{{ $smp->hp_siswa }}</td>
-              <td>{{ $smp->hp_ortu }}</td>
-              <td>{{ $smp->program }}</td>
+              <td>{{ $pp->nama }}</td>
+              <td>{{ $pp->ttl }}</td>
+              <td>{{ $pp->nik }}</td>
+              <td>{{ $pp->nisn }}</td>
+              <td>{{ $pp->kartu_keluarga }}</td>
+              <td>{{ $pp->asal_sekolah }}</td>
+              <td>{{ $pp->alamat }}</td>
+              <td>{{ $pp->nama_ayah }}</td>
+              <td>{{ $pp->nik_ayah }}</td>
+              <td>{{ $pp->pekerjaan_ayah }}</td>
+              <td>{{ $pp->nama_ibu }}</td>
+              <td>{{ $pp->nik_ibu }}</td>
+              <td>{{ $pp->pekerjaan_ibu }}</td>
+              <td>{{ $pp->hp_siswa }}</td>
+              <td>{{ $pp->hp_ortu }}</td>
+              <td>{{ $pp->pilihan_jurusan }}</td>
+              <td>{{ $pp->pilihan_tinggal }}</td>
+              <td>{{ $pp->pilihan_program }}</td>
               <td>
-                <img src="{{ asset('storage/'.$smp->image) }}" alt="" style="width: 150px" class="img-thumbnail">
-              </td>
-              <td>
-                <img src="{{ asset('storage/'.$smp->image_bukti) }}" alt="" style="width: 150px" class="img-thumbnail">
+                <img src="{{ asset('storage/'.$pp->image) }}" alt="" style="width: 150px" class="img-thumbnail">
               </td>
               <td></td>
             </tr>

@@ -1136,13 +1136,13 @@ Et les deux intéressés produisent chacun un témoin pour soutenir
 leurs prétentions, tel que convenu dans les conditions d'arbitrage.
 
 Le nommé Pierre Busseau, engagé au service du dit F.-X. Trempe,
-déclare que la queue produite par le sutkit2 Fanfan Lazette lui paraît
+déclare que la queue produite par le susdit Fanfan Lazette lui paraît
 être la queue du défunt taureau de son maître, dont il a trouvé la
 carcasse échouée sur la grève, quelques jours auparavant, dans un
 état avancé de décomposition. Le taureau est précisément disparu dans
 la nuit du 3 octobre, date où le dit Fanfan Lazette prétend avoir
 rencontré la _bête à grand'queue_. Et ce qui le confirme dans sa
-conviction, c'est la couleur de la sutkit2e queue du sutkit2 taureau
+conviction, c'est la couleur de la susdite queue du susdit taureau
 qui, quelques jours auparavant, s'était amusé à se gratter sur une
 barrière récemment peinte en vermillon.
 
@@ -1156,7 +1156,7 @@ En vue de ces témoignages et dépositions et:
 
 Considérant que l'existence de la _bête à grand' queue_ a été de
 temps immémoriaux reconnue comme réelle, dans nos campagnes, et que
-le seul moyen de se protéger contre la sutkit2e bête est de lui couper
+le seul moyen de se protéger contre la susdite bête est de lui couper
 la queue comme paraît l'avoir fait si bravement Fanfan Lazette, un
 des intéressés en cette cause;
 
@@ -1181,7 +1181,7 @@ manière à les empêcher de fréquenter les chemins publics et de
 s'attaquer aux passants dans les ténèbres, à des heures indues du
 jour et de la nuit.
 
-3. Que les deux intéressés en cette cause, les sutkit2s Fanfan Lazette
+3. Que les deux intéressés en cette cause, les susdits Fanfan Lazette
 et F.-X. Trempe soient condamnés à prendre la queue coupée par Fanfan
 Lazette et à la mettre en loterie parmi les habitants de la paroisse
 afin que la somme réalisée nous soit remise à titre de compensation

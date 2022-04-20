@@ -15,22 +15,13 @@
         <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
           <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons me-2 text-md">dashboard</i>
-            Home
+            Profile Sekolah
             <img src="{{ url ("frontend/material_kit/assets/img/down-arrow-white.svg")}}" alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
             <img src="{{ url("frontend/material_kit/assets/img/down-arrow-dark.svg")}}" alt="down-arrow" class="arrow ms-2 d-lg-none d-block">
           </a>
           <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages8">
             <div class="d-none d-lg-block">
               <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                Sekolah
-              </h6>
-              <a href="" class="dropdown-item border-radius-md">
-                <span>Profile</span>
-              </a>
-              <a href="../pages/contact-us.html" class="dropdown-item border-radius-md">
-                <span>Kontak</span>
-              </a>
-              <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
                 Web
               </h6>
               <a href="http://smait.ynikoetaikartanagara.com" class="dropdown-item border-radius-md">
@@ -38,15 +29,6 @@
               </a>
             </div>
             <div class="d-lg-none">
-              <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                Sekolah
-              </h6>
-              <a href="../pages/about-us.html" class="dropdown-item border-radius-md">
-                <span>Profile</span>
-              </a>
-              <a href="../pages/contact-us.html" class="dropdown-item border-radius-md">
-                <span>Kontak</span>
-              </a>
               <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
                 Web
               </h6>
@@ -56,7 +38,7 @@
             </div>
           </div>
         </li>
-        <li class="nav-item dropdown dropdown-hover mx-2">
+        {{-- <li class="nav-item dropdown dropdown-hover mx-2">
           <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons me-2 text-md">article</i>
             Informasi
@@ -72,28 +54,18 @@
                     <span class="text-sm">Alur pendaftaran, syarat pendaftaran</span>
                   </a>
                 </li>
-                <li class="nav-item list-group-item border-0 p-0">
-                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
-                    <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Berita Sekolah</h6>
-                    <span class="text-sm">Berita terbaru kegiatan dan aktifitas sekolah</span>
-                  </a>
-                </li>
               </ul>
             </div>
             <div class="row d-lg-none">
               <div class="col-md-12 g-0">
-                <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                <a class="dropdown-item py-2 ps-3 border-radius-md" href="#alur">
                   <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">PPDB</h6>
                   <span class="text-sm">Alur pendaftaran, syarat pendaftaran</span>
-                </a>
-                <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
-                  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Berita Sekolah</h6>
-                  <span class="text-sm">Berita terbaru kegiatan dan aktifitas sekolah</span>
                 </a>
               </div>
             </div>
           </ul>
-        </li>
+        </li> --}}
         {{-- <li class="nav-item dropdown dropdown-hover mx-2">
           <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons me-2 text-md">article</i>

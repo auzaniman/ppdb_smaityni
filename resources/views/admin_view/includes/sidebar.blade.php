@@ -49,13 +49,8 @@
       data-parent="#accordionSidebar"
     >
       <div class="bg-white py-2 collapse-inner rounded">
-        <h6 class="collapse-header">Jenjang:</h6>
-        <a class="collapse-item" href="{{route('kbit')}}">KBIT</a>
-        <a class="collapse-item" href="{{route('tkit1')}}">TKIT 1</a>
-        <a class="collapse-item" href="{{route('ppdb')}}">TKIT 2</a>
-        <a class="collapse-item" href="{{route('ppdb')}}">PPDB</a>
-        <a class="collapse-item" href="{{route('smpit')}}">SMPIT</a>
-        <a class="collapse-item" href="{{route('smait')}}">SMAIT</a>
+        <h6 class="collapse-header">Jenjang</h6>
+        <a class="collapse-item" href="{{route('table')}}">SMAIT</a>
       </div>
     </div>
   </li>

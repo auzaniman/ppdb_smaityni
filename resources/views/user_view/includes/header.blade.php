@@ -1,5 +1,5 @@
 <header class="bg-gradient-dark">
-  <div class="page-header min-vh-100" style="background-image: url('frontend/assets/img/PPDB/2.jpeg');">
+  <div class="page-header min-vh-75" style="background-image: url('frontend/assets/img/PPDB/2.jpeg');">
     <span class="mask bg-gradient-dark opacity-9"></span>
     <div class="container">
       <div class="row justify-content-center">
@@ -14,7 +14,7 @@
             <button type="submit" class="btn bg-success text-white font-weight-bold">SMPIT</button>
             <button type="submit" class="btn bg-success text-white font-weight-bold">SMAIT</button>
           </div> --}}
-          <div class="sosmed">
+          <div>
             <h6 class="text-white mb-2 mt-5">Sosial Media Kami</h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
