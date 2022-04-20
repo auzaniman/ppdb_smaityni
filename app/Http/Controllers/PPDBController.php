@@ -44,7 +44,7 @@ class PPDBController extends Controller
       $ppdb['image'] = $request->file('image')->store('', 'public');
       PPDB::create($ppdb);
 
-      return redirect()->route('success');
+      return redirect()->route('home');
     }
 
     /**
